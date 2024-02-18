@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+header {
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-size: cover;
+    background-image: url(images/51792-HEADER-1-M.webp);
+} 
+header h1 {
+    text-align: center;
+    padding: 250px 0 0 0;
+    color: #e7e7e7;
+} 
+main {
+    padding: 20px 10px;
+}
+h1 {
+   font-size: 22px;
+}
+p {
+   line-height: 24px;
+}
+nav ul {
+    list-style: none;
+}
+nav a {
+    color: white;
+    background: black;
+    font-weight: bold;
+    display: block;
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background: darkgray;
+}
+footer {
+    background-color: black;
+    padding: 10px 0;
+    margin-top: 10px;
+    text-align: center;
+    color: white
+}
+section {
+     display: flex; flex-wrap: wrap; 
+} 
+div {
+    flex-basis: 95%;
+    margin: 10px;
+    padding: 10px 5px;
+    border: 1px solid darkgray;
+    box-shadow: 0 2px 3px 1px #ddd;
+    
+}
+div img {
+    width: 100%;
+}
+.price {
+    margin: 30px 0 10px 0;
+}
+footer {
+    background-color: black;
+    padding: 10px 0;
+    margin-top: 10px;
+    text-align: center;
+    color: white
+}
+@media only screen and (min-width: 700px) {
+    header {
+        background-image: url("images/51792-HEADER-1-T.webp");
+        height: 330px;
+    }
+}
+@media only screen and (min-width: 990px) {
+    header {
+        background-image: url("images/51792-HEADER-1-D.webp");
+        height: 100vh;
+    }
+    header h1 {
+    font-size: 30px;
+    }
+}
+@media (min-width: 480px) { 
+    nav ul {
+         display: flex; 
+    } 
+    nav li {
+         flex: 1 1 auto; 
+    }
+    h1 {
+        font-size: 32px;
+    }
+}
+@media only screen and (min-width: 480px) {
+    div { 
+        flex-basis: 43%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    div { 
+        flex-basis: 28%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    div { 
+        flex-basis: 20%;
+    }
+}
+
+#text {
+    text-align: center;
+}
+#kontakt {
+    margin: 10px;
+    padding: 10px 5px;
+}
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+#prva {
+    text-align: center;
+}
+video {
+    display: block;
+    margin: 0 auto;
+    width: 680px;
+}
+
+@media only screen and (max-width: 990px) {
+    #prva {
+        text-align: left;
+    }
+    video {
+        width: 360px;
+        display: block;
+        margin-left: 1%;
+    }
+}
